@@ -1,0 +1,192 @@
+@media screen /*CSS PADRÃO IPHONE XE*/{
+/*Divisão da tela */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+header{
+    height: 8vh;
+}
+main{
+    height: 80vh;
+    overflow: auto;
+}
+footer{
+    height: 12vh;
+}
+/*Seção de add*/
+.ads{
+    width: 300px
+    heigth 90px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+body{
+    background-image: linear-gradient(45deg, rgb(20, 20, 20), #111111);       
+}
+header{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-bottom: 1px solid white;
+}
+/*BOTOES*/
+button{
+    background: transparent;
+    border: none;
+    color: rgb(136, 136, 136);
+}
+.alter{
+    background-color: rgb(87, 87, 87);
+    width:20vw;
+    font-size: 15px;    
+    border-radius: 2px;
+    box-shadow: 0 0 15px black;
+    margin: 0 0 15px 0;
+
+    position: relative;
+    left: 65vw;
+
+}
+#back{
+    margin: 15px 0;
+    text-align: center;
+}
+/*Hs*/
+h2, h3{
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+    text-shadow: 0 0 15px black;
+    margin-top: 20px;
+}
+h3{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/*SEÇOES DE INFORMAÇÃO*/
+.sec-information{
+    width: 90vw;
+    margin: auto;
+    border: 1px solid rgb(12, 12, 12);
+    border-radius: 6px;
+    margin-top: 20px;
+    box-shadow: 0 0 15px black;
+}
+
+/*formulario*/
+form{
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+#street, #name, #email{
+    margin-top: 10px;
+}
+#fone, #uf, #passworld{
+    margin-bottom: 15px;
+}
+}
+
+@media (orientation: landscape){
+    /*Divisão da tela */
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    header{
+        height: 15vh;
+    }
+    main{
+        height: 70vh;
+        overflow: auto;
+    }
+    footer{
+        height: 22vh;
+    }
+    /*Seção de add*/
+    .ads{
+        width: 10px
+        heigth 90px;
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    body{
+        background-image: linear-gradient(45deg, rgb(20, 20, 20), #111111);       
+    }
+    header{
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+        border-bottom: 1px solid white;
+    }
+    /*BOTOES*/
+    button{
+        background: transparent;
+        border: none;
+        color: rgb(136, 136, 136);
+    }
+    .alter{
+        background-color: rgb(87, 87, 87);
+        width:20vw;
+        font-size: 15px;    
+        border-radius: 2px;
+        box-shadow: 0 0 15px black;
+        margin: 0 0 15px 0;
+    
+        position: relative;
+        left: 65vw;
+    
+    }
+    #back{
+        margin: 15px 0;
+        text-align: center;
+    }
+    /*Hs*/
+    h2, h3{
+        text-align: center;
+    }
+    h2{
+        font-size: 25px;
+        text-shadow: 0 0 15px black;
+        margin-top: 20px;
+    }
+    h3{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    /*SEÇOES DE INFORMAÇÃO*/
+    .sec-information{
+        width: 90vw;
+        margin: auto;
+        border: 1px solid rgb(12, 12, 12);
+        border-radius: 6px;
+        margin-top: 20px;
+        box-shadow: 0 0 15px black;
+    }
+    
+    /*formulario*/
+    form{
+        margin-left: 15px;
+        margin-bottom: 5px;
+    }
+    #street, #name, #email{
+        margin-top: 10px;
+    }
+    #fone, #uf, #passworld{
+        margin-bottom: 15px;
+    }
+    }

@@ -1,0 +1,212 @@
+@media screen /*CSS PADRÃO IPHONE XE*/{
+/*Divisão da tela */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+header{
+    height: 8vh;
+}
+main{
+    height: 80vh;
+}
+footer{
+    height: 12vh;
+}
+/*Seção de add*/
+.ads{
+    width: 300px
+    heigth 90px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+/*Seção de add*/
+
+
+body{
+    background-image: linear-gradient(45deg, rgb(20, 20, 20), #111111);       
+}
+
+header{
+    border-bottom: 1px solid white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+main{
+    overflow: auto;
+}
+h2{
+    text-align: center;
+    padding: 25px 0px;
+}
+input{
+    background: transparent;
+    border: none;
+    font-size: 15px;
+}
+input:focus  {
+    outline: none; /* Remove a borda de destaque padrão */
+    box-shadow: none;
+    color: rgb(190, 190, 190);
+}
+h4{
+    font-size: 18px;
+}
+
+.container{
+    
+    text-align: center;
+    margin: 0 auto;
+}
+.dados{
+   
+    width: 90%;
+    min-height: 10vh;
+    
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(27, 27, 27);
+        
+}
+.dados-log, .dados-name, .dados-adress{   /*centralizando dics*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.confirmation-text{
+    width: 60%;
+    font-style: italic;
+    font-size: 15px;
+    padding: 3vw;   
+}
+.log-information{
+    border-bottom: 2px solid white;
+    padding: 10px 2px;
+}
+
+.log-all{
+    margin-bottom: 15px;
+}
+#email-info, #nikename{
+    width: 91%;
+    padding: 8px;
+}
+#password{
+    width: 43%;
+    padding-left: 8px;
+    margin-right: 2%;
+}
+#r-password{
+    width: 43%;
+    padding-left: 8px;
+    margin-left: 2%;
+}
+
+/*dadps éssoas*/
+.personal-informations{
+    border-bottom: 2px solid white;
+    padding: 10px 2px;
+}
+.personal-all{
+    margin-bottom: 15px;
+}
+#full-name{
+    width: 70%;
+    padding-left: 8px;
+    margin-right: 2%;
+}
+
+#data-birthday{
+    width: 16%;
+    padding-left: 8px;
+    margin-left: 2%;
+
+}
+
+#cpf{
+    width: 43%;
+    padding-left: 8px;
+    margin-right: 2%;
+}
+
+#fone{
+    width: 43%;
+    padding-left: 8px;
+    margin-left: 2%;
+}
+/*dadps add*/
+.dados-adress{
+    border-bottom: 2px solid white;
+    padding: 10px 2px;
+}
+.adress-all{
+    margin-bottom: 15px;
+}
+ #adress{
+    width: 70%;
+    padding-left: 8px;
+    margin-right: 2%;
+ }
+ #number{
+    width: 16%;
+    padding-left: 8px;
+    margin-left: 2%;
+ }
+ #city{
+    width: 43%;
+    padding-left: 8px;
+    margin-right: 2%;
+ }
+ #district{
+    width: 43%;
+    padding-left: 8px;
+    margin-left: 2%;
+ }
+ #zipe-code{
+    width: 50%;
+    padding-left: 8px;
+    margin-right: 2%;
+ }
+ #uf{
+    width: 36%;
+    padding-left: 8px;
+    margin-left: 2%;
+ }
+
+ /*botoes*/
+ button{
+    background: transparent;
+    border: none;
+ }
+ .butons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+ }
+ #but-cad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    height: 30px;
+    font-size: 4vw;
+    padding: 20px;
+    margin-right: 15px;
+    border-radius: 6px;
+ }
+ .text-back{
+    color: rgb(99, 99, 99);
+    font-size: 15px;
+ }
+}

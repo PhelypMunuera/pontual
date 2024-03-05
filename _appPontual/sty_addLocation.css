@@ -1,0 +1,121 @@
+@media screen /*CSS PADRÃO IPHONE XE*/{
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+header{
+    height: 8vh;
+}
+main{
+    height: 80vh;
+}
+footer{
+    height: 12vh;
+}
+/*Seção de add*/
+.ads{
+    width: 300px
+    heigth 90px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+/*Seção de add*/
+
+
+body{
+    background-image: linear-gradient(45deg, rgb(20, 20, 20), #111111);       
+}
+
+header{
+    border-bottom: 1px solid white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+/*CONFIGURAÇÕES DO MAPA*/
+h3{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 6vw;
+}
+#maps-view{
+    width: 85vw;
+    height: 85vw;
+    overflow: hidden;
+    overflow: auto;
+    text-align: center;
+    border-radius: 6px;
+    display: flex;
+    padding: 3px;
+    box-shadow: 0 0 20px rgb(65, 65, 65);
+}
+.maps{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    height: 100vw;
+}
+
+/*BUSCADOR*/
+input{
+    border: none;
+    background: transparent;
+}
+input::placeholder{
+    color: rgb(175, 175, 175);
+    padding-left: 15px;
+}
+#search-container{
+    display: flex;
+    justify-content: center;
+}
+#search{
+    background-color: #494949;
+    width: 75vw;
+    height: 7vw;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: rgb(247, 247, 235)75, 175, 175
+}
+
+/*BOTOES*/
+button{
+    border: none;
+    background: transparent;
+    text-decoration: none;
+}
+#search:focus{
+ outline: none;
+ padding-left: 15px;
+ background:  #363636;
+}
+#button-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#but-search{
+    width: 40vw;
+    height: 7vw;
+    font-size: 4.5vw;
+    background-color: #494949;
+    border-radius: 6px;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+#but-back{
+    margin-left: 35px;
+    color: #494949;
+    font-size: 3.5vw;
+}
+}

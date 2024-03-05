@@ -1,0 +1,111 @@
+@media screen /*CSS PADRÃO IPHONE XE*/ { 
+/*Divisão da tela */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+section{
+    height: 88vh;
+}
+footer{
+    height: 12vh;
+}
+/*Seção de add*/
+.ads{
+    width: 300px
+    heigth 90px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+/*Seção de add*/
+    body{
+        background-image: linear-gradient(45deg, rgb(10, 10, 10), #111111);       
+    }
+    main{
+        text-align: center;
+        padding-top: 50px;
+        background-color: black;
+        width: 80vw;
+        height: 65vh;
+        border-radius: 15px;
+        box-shadow: 0 0 50px rgb(6, 6, 6);
+    }
+    h1{
+       
+        font-size: 40px;
+        text-shadow: 0 0 10px #13061f;
+        border-bottom: 3px solid white;
+        /*background-image: linear-gradient(90deg, black,  #111111);
+         usar um affter ou algo assim para criar um gradiente na linha 
+        */
+    }
+    p{
+        padding: 15px;
+        font-size: 15px;
+        font-style: italic;
+        color: #464646;
+    }
+    input{
+        background: transparent;
+        border: none;
+    }
+
+    input:focus{
+        outline: none;
+    }
+
+    /* >>> não funcionou <<<
+    input:focus{
+        border: none;
+    }*/
+    button{
+        background: transparent;
+        border: none;
+    }
+        footer{
+        height: 10vh;
+        text-align: center;
+    }
+    /*----------CLASS---------- */
+    .form{
+        height: 40vh;
+       padding-top: 10vw;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 89vh;
+    }
+    .logo-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .login-iformation{
+        width: 50vw;
+        height: 25px;
+        margin-top: 10px;
+        border: 1px solid rgb(95, 95, 95);
+        border-radius: 6px;
+        padding-left: 8px;
+        justify-content: center;
+        align-items: center;
+    }
+    .confirmation{
+        background-color: #1b1b1b;
+        width: 40vw;
+        height: 20px;
+        margin-top: 20px;
+        border-radius: 6px;
+        box-shadow: 0 0 10px rgb(92, 92, 92);
+    }
+
+        
+}

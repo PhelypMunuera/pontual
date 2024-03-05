@@ -1,0 +1,179 @@
+@media screen /*CSS PADRÃO IPHONE XE*/{
+/*Divisão da tela */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+header{
+    height: 8vh;
+}
+main{
+    height: 80vh;
+}
+footer{
+    height: 12vh;
+}
+/*Seção de add*/
+.ads{
+    width: 300px
+    heigth 90px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+body{
+    background-image: linear-gradient(45deg, rgb(20, 20, 20), #111111);       
+}
+header{
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 90vw;
+    height: 60vh;
+    box-shadow: -5px 0 20px rgb(56, 56, 56);
+    border-radius: 10px;
+    
+}
+.options{
+    height: 30vh;
+    width: 95%;
+    margin: auto;
+}
+
+.profile{
+    margin: auto;
+    padding-top: 7vh;
+}
+.header-profile, .profile{
+    height:40vh;
+}
+.container-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 19vh;   
+}
+
+/*headre of profile*/
+
+#img-profile{
+    max-height: 18vh;
+    padding: 3px;
+    border: 6px solid #634103;
+    border-radius: 50%;
+}
+.nickname{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.plan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3d3d3d;
+    width: 70px;
+    height: 30px;
+    border-radius: 6px;
+    margin: 15px auto;
+
+    background-color: #01440c;
+}
+
+.descriptions-profile{
+    height: 7vh; 
+}
+
+/*GALERIA DE TROFEUS*/
+/*.galery-trof{
+    background-color: #383838;
+    height: 10vh;
+    margin:  2vh 0;
+}
+.trof-icon{
+    display: flex ;
+    height: 10vh;
+}
+.img-trof{
+    display: flex;
+    margin-left: 15px;
+    max-width: 100%;
+    display: block;
+}*/
+img{
+    
+    display: block;
+}
+.galery-trof{
+    background-color: #383838;
+    display: flex;
+    height: 10vh;
+    overflow: auto;
+    justify-content: center;
+
+}
+
+.img-trof{
+    display: flex;
+    padding: 5px;
+    
+}
+
+
+/*links*/
+a{
+    display: flex;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* botoes de configuração*/
+.alarm, .save, .information, .plans, .out{
+    display: flex;
+    align-items: center;
+    padding-left: 8vw;
+    margin-top: 8px;
+    border-bottom: 1px solid rgb(83, 83, 83);
+}
+
+#alarm-img, 
+#save-img,
+#information-img,
+#plans-img,
+#out-img {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    
+    background-color: rgb(54, 54, 56);
+}
+#alarm-text,
+#save-text,
+#information-text,
+#plans-text,
+#out-text {
+    width: 85vw;
+}
+}
+
+
+

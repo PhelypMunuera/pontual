@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8">
+        <title>Cadastrar</title>
+        <link rel="stylesheet" type="text/css" href="cadastro.css">
+          
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img id="img-text" src="img/Pontual-logo-text.png" alt="logo em texto">
+                       
+                <img id="img-logo" src="img/PONTUAL-lOGO-ICON-SF.png" alt="logo">
+            </div>
+        </header>
+        <main>
+                <h2>PAGINA DE CADASTRO</h2>
+            <section class="container-form">
+                    <section class="dadospessoais">
+                        <h4>Dados Pessoais</h4>
+                        <form class="form-self" id="nome" action="">
+                            <!--<label for="fullname" class="label-pessoais">Nome Completo...</label>-->
+                            <input type="text" class="pessoais" id="fullname" name="nome" placeholder="Nome completo...">
+                            <input type="text" class="pessoais" id="birthday" name="nascimento" placeholder="Nasc...">
+                            <input type="text" class="pessoais" id="cpf" name="cpf" placeholder="CPF...">
+                            <input type="text" class="pessoais" id="fone" name="telefone" placeholder="Telefone....">
+                        </form>
+                    </section>
+                    <section class="dadosendereco">
+                        <h4>Informe seu Endereço</h4>
+                            <form class="form-endereco" id="st" action="">
+                                <input type="text" id="adress" class="endereco" name="endereco" placeholder="Endereço...">
+                                <input type="text" id="number" class="endereco" name="number" placeholder="Nº...">
+                                <input type="text" id="district" class="endereco" name="bairro"placeholder="Bairro..."> 
+                                <input type="text" id="city" class="endereco" name="cidade" placeholder="Cidade...">
+                                <input type="text" id="uf" class="endereco" name="estado" placeholder="UF...">
+                                <input type="text" id="zipcode" class="endereco" name="CEP" placeholder="CEP...">
+                                                       
+                            </form>
+                    </section>
+                    <section class="dadoslogin">
+                        <h4>Dados de login</h4>
+                            <form class="form-login" id="nick" action="">
+                                <input type="email" id="nikeemail" class="login" name="email" placeholder="Insira seu e-mail...">
+                                <input type="text" id="nikename" class="login" name="nickname" placeholder="Insira um nome de usuario...">
+                                <input type="text" id="password1" class="login" name="password" placeholder="Crie uma senha...">
+                                <input type="text" id="password2" class="login" name="password" placeholder="Repita a senha...">
+                            </form>
+                    </section>
+            </div>
+                    <div class="container-confirmations">
+                    <div class="accept-terms">
+                        <p class="text-input"><input type="checkbox" class="check"> Aceito os termos de uso</p>
+                    </div>
+                    <div class="buts">
+                        <a href="_index.html"><button type="submit" class="confirm" id="but-cad">CADASTRAR-ME</button></a>
+                        <a href="_logingpage.html"><button type="submit" class="confirm" id="but-back">VOLTAR</button></a>
+                    </div>
+            </section>
+        </main>
+        <footer>
+        <div class="adds">
+            <img src="img/anuncio.jpg">
+        </div>
+        <div class="footer"></div>
+        </footer>
+    </body>
+</html>

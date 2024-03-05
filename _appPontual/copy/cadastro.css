@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 56px;
+    background-color: #00154D;
+}
+body{
+    background-image: url(img/back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    padding-top:20px;
+    padding-bottom: 10px;
+    /*box-shadow: 0 0 10px #D03E0F;*/   
+   } 
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff9a;
+    text-align: center;
+    font-size: 20px;
+    padding-top:10px;
+    
+    /*box-shadow: 0 0 10px #D03E0F;*/   
+} 
+input{
+    background: transparent;
+    border: 1px solid #ffffff93;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+footer{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.dadospessoais{
+    margin: 0 auto;
+}
+.dadosendereco{
+    margin: 0 auto;
+}
+.dadoslogin{
+    margin: 0 auto;
+}
+.dadospessoais{
+    width: 550px;
+    border: 1px solid #00154D;
+    border-radius: 6px;
+    padding-bottom: 10px;
+}
+.dadosendereco{
+    width: 550px;
+    border: 1px solid #00154D;
+    border-radius: 6px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+.container-confirmations{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.buts{
+    text-align: center;
+    margin-top: 10px;
+}
+.text-input{
+    color: #fff;
+    margin-left: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;    
+}
+.dadoslogin{
+    width: 550px;
+    border: 1px solid #00154D;
+    border-radius: 6px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+.confirm{
+    margin-top: 15px;
+    background: transparent;
+    border: none;
+}
+
+
+
+#img-logo{
+    margin-right:20px;
+    padding-top: 3px;
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+#img-text{
+    padding-top: 19px;
+    margin-left: 30px;
+}
+ #fullname{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 390px;
+    height: 25px;
+    padding-left: 10px;
+    background-color: #ffffff93;
+ }
+#birthday{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    background-color: #ffffff93;
+ }
+ #cpf{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 290px;
+    height: 25px;
+    padding-left: 10px;
+    background-color: #ffffff93;
+ }
+ #fone{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 190px;
+    padding-left: 10px;
+    height: 25px;
+    background-color: #ffffff93;
+    
+ }
+ #adress{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 250px;
+    height: 25px;
+    padding-left: 10px;
+    background-color: #ffffff93;
+ }
+ #number{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50px;
+    height: 25px;
+    padding-left: 10px;
+    background-color: #ffffff93;
+ }
+ #district{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 140px;
+    height: 25px;
+    padding-left: 10px;
+    background-color: #ffffff93;
+ }
+ #city{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 180px;
+    height: 25px;
+    padding-left: 10px;
+    background-color: #ffffff93;
+ }
+ #uf{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50px;
+    height: 25px;
+    padding-left: 10px;
+    background-color: #ffffff93;
+ }
+ #zipcode{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 210px;
+    height: 25px;
+    padding-left: 10px;
+    background-color: #ffffff93;
+ }
+ #nikeemail{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 510px;
+    height: 25px;
+    padding-left: 10px;
+    background-color: #ffffff93;
+ }
+#nikename{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 510px;
+    height: 25px;
+    padding-left: 10px;
+    background-color: #ffffff93;
+ }
+ #password1{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 235px;
+    height: 25px;
+    padding-left: 10px;
+    background-color: #ffffff93;
+ }
+ #password2{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 235px;
+    height: 25px;
+    padding-left: 10px;
+    background-color: #ffffff93;
+ }
+#but-cad{
+    background-color: #D03E0F;
+    color: #00154D;
+    width: 150px;
+    height: 25px;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 200ms;
+}
+#but-cad:hover{
+    background-color: #00154D;
+    color: #D03E0F;
+    width: 150px;
+    height: 25px;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-right: 15px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#but-back{
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+h2, h4{
+    text-align: center;
+    font-family: 'Corben', serif;
+    color: rgb(145, 145, 145);
+    margin-bottom: 10px;
+}
+form{
+    border: 2px solid rgba(136, 171, 194, 0.90);
+    font-family: 'Corben', serif;
+    color: rgb(145, 145, 145);
+    border-radius: 6px;
+    margin-bottom: 4px;
+}
+
+footer{
+    float: none;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
+
+button{
+    display: inline-block;
+}
+
+
+.footer{
+    width: 100%;
+    height: 18px;
+    background: rgb(136, 171, 194);
+    position: fixed;
+    bottom: 0;
+}
+.adds{
+margin-bottom: 18px;
+}
+.container-form{
+    width: 90%;
+    position: relative;
+    margin: auto;
+}
+.confirm{
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+.text-input{
+    margin: 20px;
+    text-align: end;
+    font-family: 'Corben', serif;
+    color: rgb(145, 145, 145)
+}
+.confirm{
+    float:left;
+    text-align: center;
+    font-family: 'Corben', serif;
+    color:#fff;
+    border: 1px solid rgb(145, 145, 145);
+    border-radius: 6px;
+    padding: 5px;
+    background: rgb(136, 171, 194);
+    cursor: pointer;
+    transition: 200ms;
+    margin-bottom: 15px;
+}
+
+.confirm:hover{
+    font-family: 'Corben', serif;
+    color:rgb(136, 171, 194);
+    border: 1px solid rgb(145, 145, 145);
+    border-radius: 6px;
+    padding: 5px;
+    background: #fff;
+    cursor: pointer;
+}
+
+#header{
+    width: 100%;
+    height: 55px;
+    background: rgb(136, 171, 194);
+    margin-bottom: 17px;
+}
+
+#line{
+    
+    width: 90%;
+    position: relative;
+    margin: 20px auto ;
+    height: 1px;
+    border-radius: 6px;
+    background-color:rgb(136, 171, 194);
+}
+
+
+/*
+<form class="form-self" id="nome" action="">
+                        <label for="fullname" class="label-pessoais">Nome Completo...</label>
+                        <input type="text" class="pessoais" id="fullname">
+*/
+
+
+/*
+.form-self {
+    margin: 20px;
+    background-color: black;
+}
+
+
+
+
+.label-pessoais{
+    position: absolute;
+    left;
+}
+
+*/
+
+

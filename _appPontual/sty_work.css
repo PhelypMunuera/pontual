@@ -1,0 +1,185 @@
+@media screen /*CSS PADRÃO IPHONE XE*/{
+/*Divisão da tela */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+header{
+    height: 8vh;
+}
+main{
+    height: 80vh;
+}
+footer{
+    height: 12vh;
+}
+/*Seção de add*/
+.ads{
+    width: 300px
+    heigth 90px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+/*Seção de add*/
+
+body{
+    background-image: linear-gradient(45deg, rgb(20, 20, 20), #111111);       
+}
+header{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    width: 100%;
+   
+}
+input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    color: #000000;
+}
+h3{
+    width: 80vw;
+    height: 30px;
+    border: 1px solid white;
+    
+    margin: 0 auto;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#img-profle{
+    position: absolute;
+    right: 10px;
+    box-shadow: 0 -10px 20px#333333;
+    border-radius: 50%;
+}
+
+.search{
+    background-image: url(img-base/back-city.png );
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+.search-location{
+ padding-left: 7px;
+ border: 1px solid white;
+ width: 65vw;
+ height: 25px;
+ background-color: rgba(211, 211, 211, 0.678);
+ border-radius: 6px;
+ margin:0 auto;
+ display: flex;
+ margin-bottom: 25px;
+}
+.maps-view{
+    display: flex;
+    justify-content: center;
+    /*
+    overflow: hidden;
+    overflow: auto;*/
+}
+.img-maps{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border: 1px  dashed white;
+    padding: 3px;
+    border-radius: 6px;
+}
+
+.fuction{
+    margin-top: 25px;
+}
+.localization{
+    text-align: center;
+    height: 15vh;
+}
+.check-myLocation{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+#destino-div{
+    margin-top: 20px;
+}
+#localizationUser{
+    margin-right: 20px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+#maps-loding{
+    border-radius: 6px;
+}
+
+
+/*>>>>> switch <<<<<*/
+input {
+    display: none;}
+.switch{ /*div do botão*/
+    width: 50px;
+    height: 23px;
+    background-color:#242424;
+    border: 1px solid #242424;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgb(53, 53, 53);
+    position: relative; /*nao lembro*/}
+.check:checked ~.switch{
+    background-color:#e2e2e2;
+    box-shadow: 0 0 5px rgb(102, 102, 102);}
+.on-off{ /* bolinha do botão*/
+    border: none;
+    pointer-events: none;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color:#c9c9c9;
+    top:3px;
+    left: 30px;
+    transition: all 300ms ease-in-out;}
+.check:checked ~.switch > .on-off{
+    background-color:#1a1a1a;
+    left: 3px;}
+.text-button{
+padding: 5px;
+font-size: 10px;
+display: flex;
+align-items: end;
+color: #e2e2e2;}
+.text-button-on{
+    opacity: 0;}
+.check:checked ~.switch > .text-button-on{
+opacity: 1;
+padding: 5px;
+font-size: 10px;
+color: #000000;
+position: relative;
+bottom: 21px;
+left:  10px;}  
+/*>>>>> enda switch <<<<<*/
+}
